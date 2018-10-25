@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="main.css">
  </head>
 
-    <div class="pos-f-t">
+    <div class="pos-f-t" style="position:fixed;top:0;left:0;width:100%;">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
       <h4 class="text-white">History</h4>
@@ -35,8 +35,8 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
   </nav>
+</div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -48,7 +48,23 @@
           <%= yield %>
         </div>
         </body>
-
+        <div id="top-button" style="bottom:0;height:50px;width:100%;left:0;background:whitesmoke;text-align:center;">
+          <a class="nav-link" href="#">Back to Top</a>
+        </div>
+        <div id="footer" class="bg-dark p-4" style="bottom:0;left:0;width:100%;height:350px;">
+          <div id="text-enclousure" style="margin-left:120px;">
+          <div style="color:lightblue;width:25%;height:10%">
+            <h3><b>Spanish Flu</b></h3>
+          </div>
+          <div style="color:lightblue;width:10%;top:0;text-align:center;">
+              <h6><b>by</b></h5>
+              <h6><b>Author1</b></h6>
+              <h6><b>Author2</b></h6>
+              <h6><b>Author3</b></h6>
+              <h6><b>Author4</b></h6>
+          </div>
+        </div>
+        </div>
 
 
 
